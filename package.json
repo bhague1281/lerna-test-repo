@@ -11,7 +11,8 @@
   },
   "scripts": {
     "packages:test": "lerna run test --since master",
-    "packages:build": "lerna run build",
-    "packages:publish": "lerna publish"
+    "packages:build": "lerna run build --since master",
+    "packages:publish": "lerna publish",
+    "packages:bootstrap": "lerna bootstrap"
   }
 }
