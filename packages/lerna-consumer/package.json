@@ -32,6 +32,6 @@
     "jest": "24.5.0"
   },
   "dependencies": {
-    "@bhague1281/lerna-constants": "^2.0.1"
+    "@bhague1281/lerna-constants": "2.0.1"
   }
 }
