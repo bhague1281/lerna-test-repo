@@ -1,6 +1,6 @@
 {
   "name": "@bhague1281/lerna-consumer",
-  "version": "2.0.2",
+  "version": "2.0.1",
   "description": "> TODO: description",
   "author": "Brian Hague <brian.hague@sap.com>",
   "homepage": "https://github.com/bhague1281/lerna-test-repo#readme",
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "babel src --out-dir lib --copy-files"
+    "build": "babel src --out-dir lib --copy-files",
+    "release": "npm run test && npm run build"
   },
   "bugs": {
     "url": "https://github.com/bhague1281/lerna-test-repo/issues"
