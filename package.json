@@ -10,7 +10,7 @@
     "lerna": "^3.10.7"
   },
   "scripts": {
-    "packages:test": "lerna run test",
+    "packages:test": "lerna run test --since master",
     "packages:build": "lerna run build",
     "packages:publish": "lerna publish"
   }
