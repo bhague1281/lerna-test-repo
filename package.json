@@ -11,6 +11,7 @@
   },
   "scripts": {
     "packages:test": "lerna run test",
+    "packages:build": "lerna run build",
     "packages:publish": "lerna publish"
   }
 }

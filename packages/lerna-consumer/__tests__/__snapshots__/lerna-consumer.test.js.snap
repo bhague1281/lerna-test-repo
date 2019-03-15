@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@bhague1281/lerna-constants should return the correct constants 1`] = `
+Object {
+  "TEST1": "test1",
+  "TEST2": "test2",
+  "meta": Object {
+    "info": "This is a lerna consumer consuming constants",
+  },
+}
+`;
