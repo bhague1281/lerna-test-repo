@@ -1,6 +1,6 @@
 {
   "name": "@bhague1281/lerna-consumer",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "> TODO: description",
   "author": "Brian Hague <brian.hague@sap.com>",
   "homepage": "https://github.com/bhague1281/lerna-test-repo#readme",
@@ -32,6 +32,6 @@
     "jest": "24.5.0"
   },
   "dependencies": {
-    "@bhague1281/lerna-constants": "1.0.1"
+    "@bhague1281/lerna-constants": "^2.0.0"
   }
 }
