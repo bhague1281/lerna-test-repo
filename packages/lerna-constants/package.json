@@ -1,0 +1,34 @@
+{
+  "name": "@bhague1281/lerna-constants",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Brian Hague <brian.hague@sap.com>",
+  "homepage": "https://github.com/bhague1281/lerna-test-repo#readme",
+  "license": "ISC",
+  "main": "lib/lerna-constants.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhague1281/lerna-test-repo.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir lib --copy-files"
+  },
+  "bugs": {
+    "url": "https://github.com/bhague1281/lerna-test-repo/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "jest": "24.5.0"
+  }
+}

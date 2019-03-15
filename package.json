@@ -2,6 +2,15 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "babel-jest": "24.5.0",
+    "enzyme": "3.9.0",
+    "jest": "24.5.0",
     "lerna": "^3.10.7"
+  },
+  "scripts": {
+    "packages:test": "lerna run test",
+    "packages:publish": "lerna publish"
   }
 }
